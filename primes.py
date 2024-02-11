@@ -18,7 +18,7 @@ while(n < upper_bound):
                 running = False
             if (n % prime == 0):
                 is_prime = False
-        running == False
+        running = False
     if is_prime == True:
         primes.append(n)
         count +=1
