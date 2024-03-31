@@ -3,7 +3,7 @@ import math
 import time
 
 count = 0
-upper_bound = 10000
+upper_bound = 1000000
 n = 3
 
 primes = [2]
@@ -23,5 +23,5 @@ while(n < upper_bound):
         primes.append(n)
         count +=1
         print("\nNext Prime: " + str(n))
-    n+=1
+    n += 1
 print("\nNumber of primes in range: " + str(count+1))
